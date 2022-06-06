@@ -3613,7 +3613,6 @@ body[data-aos-easing="ease-in-out"] [data-aos] {
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  overflow: auto;
 }
 
 html {
