@@ -3128,6 +3128,7 @@ img.mfp-img {
   }
 }
 
+
 [data-aos][data-aos][data-aos-duration="50"],
 body[data-aos-duration="50"] [data-aos] {
   transition-duration: 50ms
@@ -3613,6 +3614,7 @@ body[data-aos-easing="ease-in-out"] [data-aos] {
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  
 }
 
 html {
@@ -4385,6 +4387,18 @@ fieldset:disabled a.btn {
   }
   #hey{
     display: none !important;
+  }
+}
+
+@media (max-width:576px) {
+  head {
+    overflow: auto;
+  }
+  body {
+    overflow: auto;
+  }
+  *, *::before, *::after {
+    overflow: auto;
   }
 }
 
@@ -5854,7 +5868,7 @@ h3,
     padding-right: 0;
     padding-bottom: 1rem;
     padding-top: 0;
-    color: #fff
+    color: black;
   }
 }
 
